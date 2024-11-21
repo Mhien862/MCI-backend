@@ -17,8 +17,8 @@ A simple Customer Relationship Management (CRM) backend system for managing cust
 
 1. **Clone the Project**
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/Mhien862/MCI-backend.git
+   cd MCI-backend
    ```
 
 2. **Install Dependencies**
