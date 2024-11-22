@@ -11,21 +11,21 @@ const Product = sequelize.define('Product', {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        notEmpty: true, // Không được để trống
+        notEmpty: true, 
       },
     },
     price: {
       type: DataTypes.FLOAT,
-      allowNull: false, // Không được để trống
+      allowNull: false, 
       validate: {
-        min: 0, // Giá trị tối thiểu là 0
+        min: 0, 
       },
     },
     category: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        notEmpty: true, // Không được để trống
+        notEmpty: true, 
       },
     },
     status: {

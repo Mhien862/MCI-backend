@@ -17,11 +17,11 @@ app.post('/login', login);
 // AdminJS
 app.use(adminJs.options.rootPath, adminRouter);
 
-// API routes
+// Routes
 app.use('/customers', customerRoutes);
 app.use('/products', productRoutes);
 
-// Sync database and start server
+// Log successful connection
 sequelize
   .sync()
   .then(() => {
